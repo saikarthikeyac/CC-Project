@@ -41,19 +41,4 @@ All microservices use MongoDB databases. Follow these steps to get started:
 - Can update their own profile information
 - Cannot modify other faculty members' information
 
-## Microservices
-
-- **Faculty Service**: Manages faculty information (completed)
-- **Student Service**: Manages student information (to be implemented)
-- **Course Service**: Manages course information (to be implemented)
-- **Department Service**: Manages department information (to be implemented)
-
-## Collaboration Instructions
-
-When implementing a new microservice:
-
-1. Create a new directory for your microservice
-2. Follow the existing patterns from the faculty service
-3. Include database setup files in your_service/database folder
-4. Document any new API endpoints in your microservice's README
 
