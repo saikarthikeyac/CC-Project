@@ -20,4 +20,4 @@
 - Can update their own profile information
 - Cannot modify other faculty members' information
 
-
+```
