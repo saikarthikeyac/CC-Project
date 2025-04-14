@@ -1,23 +1,40 @@
-# College Department Management System
+# Faculty Directory Management System
 
-   ```
 
-## User Roles and Permissions
 
-### Administrator
-- **Username**: `admin` / **Password**: `admin`
-- Has **unrestricted access** to all system features
-- Can view, add, edit, and delete any faculty member across all departments
-- Can designate HOD positions to faculty members
+---
 
-### Head of Department (HOD)
-- Can view all faculty members within their department only
-- Can add, edit, and delete faculty members within their own department
-- Cannot view or modify faculty from other departments
+## 🧑‍💼 User Roles and Permissions
 
-### Faculty Members
-- Can view the faculty directory
-- Can update their own profile information
-- Cannot modify other faculty members' information
+### 🔑 Administrator
+- **Login Credentials**:  
+  - Username: `admin`  
+  - Password: `admin`
+- **Permissions**:
+  - Full unrestricted access to the system
+  - View, add, edit, and delete faculty members across **all departments**
+  - Assign **Head of Department (HOD)** roles to faculty members
 
-```
+---
+
+### 🏛️ Head of Department (HOD)
+- **Permissions**:
+  - View all faculty members **within their own department**
+  - Add, edit, and delete faculty members **within their department only**
+  - Cannot access or modify data from **other departments**
+
+---
+
+### 👨‍🏫 Faculty Member
+- **Permissions**:
+  - View the complete **faculty directory**
+  - Update **their own profile information**
+  - Cannot modify other faculty members' data
+
+
+
+---
+
+
+   ```bash
+   npm start
